@@ -29,7 +29,7 @@ header{
 }
 
 h1{
-    font-: var(--vivid-sky-blue);
+    font-family: var(--vivid-sky-blue);
     font-size: 2rem;
     color: var(--#000000);
     padding: 1.2rem 0;
