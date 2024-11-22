@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
-.root{
-    font-family: "Oswald", sans-serif;
-    --federal-blue: #03045eff;
+:root{
+--font-titulo: "Oswald", sans-serif;
+--font-texto:  "Noto Sans JP", sans-serif;
 --marian-blue: #023e8aff;
 --honolulu-blue: #0077b6ff;
 --blue-green: #0096c7ff;
@@ -20,7 +24,7 @@ body{
     font-family: var(--fonte-texto);
     background-color: var(--federal-blue);
     color: var(--federal-blue);
-    height: 100ch;
+    height: 100vh;
 }
 
 header{
@@ -43,7 +47,7 @@ nav{
 
 nav a {
     text-decoration: none;
-    color: var(--light-cyan);
+    color: var(--honolulu-blue);
     margin: 0 2rem 1rem 0;
 }
 
@@ -64,6 +68,20 @@ footer{
     position: fixed;
     bottom: 0;
     padding: 1rem;
-    margin-top: 2rem;
-    height: 3rem;
+}
+
+.caixa-grafico{
+    margin: 5rem;
+}
+
+.caixa-grafico_container{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--font-texto) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: var(--font-texto);
 }
